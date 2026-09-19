@@ -1,15 +1,14 @@
-//import javafx.stage.Stage;
-//import javafx.application.Application;
+package com.projectmoa.crashalyst;
 
-void main(){
-    System.out.println("crashalyst Initializing...");
+import javafx.stage.Stage;
+import javafx.application.Application;
+
+public class Main extends Application {
+
+    @Override
+    public void start(Stage stage) {
+
+        System.out.println("beginning the crashout on JavaFX...");
+        System.exit(0);
+    }
 }
-//public class main extends Application {
-//
-//    @Override
-//    public void start(Stage stage){
-//
-//    System.out.println("beginning the crashout on JavaFX...");
-//
-//    }
-//}

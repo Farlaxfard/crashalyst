@@ -27,7 +27,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("com.projectmoa.crashalyst")
-    mainClass.set("com.projectmoa.crashalyst.HelloApplication")
+    mainClass.set("com.projectmoa.crashalyst.Main")
 }
 
 javafx {
