@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="4096" height="4096" viewBox="0 -960 960 960"
+     preserveAspectRatio="xMidYMid meet">
+
+  <defs>
+    <!-- exact DION-TV-inspired test-pattern colors -->
+    <linearGradient id="patternGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".10"/>
+      <stop offset=".48" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity=".10"/>
+    </linearGradient>
+
+    <!-- repeating vertical test bars, with the lower test blocks -->
+    <pattern id="tvPattern" patternUnits="userSpaceOnUse"
+             x="0" y="-880" width="720" height="880">
+      <rect x="0"   y="0" width="120" height="600" fill="#f2f2f2"/>
+      <rect x="120" y="0" width="120" height="600" fill="#f1d005"/>
+      <rect x="240" y="0" width="120" height="600" fill="#52d5db"/>
+      <rect x="360" y="0" width="120" height="600" fill="#5fe12a"/>
+      <rect x="480" y="0" width="120" height="600" fill="#f317d5"/>
+      <rect x="600" y="0" width="120" height="600" fill="#f32425"/>
+
+      <!-- lower television test-pattern blocks -->
+      <rect x="0"   y="600" width="120" height="140" fill="#1730c0"/>
+      <rect x="120" y="600" width="120" height="140" fill="#171415"/>
+      <rect x="240" y="600" width="120" height="140" fill="#f317d5"/>
+      <rect x="360" y="600" width="120" height="140" fill="#171415"/>
+      <rect x="480" y="600" width="120" height="140" fill="#52d5db"/>
+      <rect x="600" y="600" width="120" height="140" fill="#f2f2f2"/>
+
+      <rect x="0"   y="740" width="120" height="140" fill="#171415"/>
+      <rect x="120" y="740" width="120" height="140" fill="#f1d005"/>
+      <rect x="240" y="740" width="120" height="140" fill="#f2f2f2"/>
+      <rect x="360" y="740" width="120" height="140" fill="#3b0ab5"/>
+      <rect x="480" y="740" width="120" height="140" fill="#171415"/>
+      <rect x="600" y="740" width="120" height="140" fill="#5fe12a"/>
+
+      <rect x="0" y="0" width="720" height="880" fill="url(#patternGlow)"/>
+    </pattern>
+
+    <!-- poppier red reserved for the exclamation circle -->
+    <radialGradient id="alertRed" cx="38%" cy="30%" r="78%">
+      <stop offset="0" stop-color="#ff4b4b"/>
+      <stop offset=".42" stop-color="#ff2525"/>
+      <stop offset="1" stop-color="#e91418"/>
+    </radialGradient>
+
+    <!-- liquid-glass sheen -->
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".46"/>
+      <stop offset=".16" stop-color="#ffffff" stop-opacity=".16"/>
+      <stop offset=".30" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".68" stop-color="#ffffff" stop-opacity=".035"/>
+      <stop offset=".82" stop-color="#ffffff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity=".30"/>
+    </linearGradient>
+
+    <linearGradient id="specularBand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset=".42" stop-color="#ffffff" stop-opacity=".02"/>
+      <stop offset=".50" stop-color="#ffffff" stop-opacity=".30"/>
+      <stop offset=".58" stop-color="#ffffff" stop-opacity=".02"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glassSoft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+
+    <clipPath id="iconClip">
+      <path d="M480-823 213-669l267 155 266-155-266-154ZM120-310v-340q0-16 7.88-29.79Q135.75-693.57 150-702l300-173q8-5 14.95-6.5 6.95-1.5 15-1.5t15.55 1.5Q503-880 510-875l300 173q14.25 8.43 22.13 22.21Q840-666 840-650v210h-60v-180L481-445 180-619v309l300 173v69L150-258q-14.25-8.43-22.12-22.21Q120-294 120-310ZM729.5-60q8.5 0 14.5-5.5t6-14.5q0-9-6-14.5t-14-5.5q-9 0-14.5 5.5T710-80q0 9 5.5 14.5t14 5.5ZM710-140h40v-180h-40v180ZM596-55.4q-56-55.4-56-134T596-324q56-56 134-56t134 55.87q56 55.86 56 135.13 0 78.43-56 133.72Q808 0 730 0T596-55.4ZM480-478Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- original silhouette/path geometry is preserved exactly -->
+  <path d="M480-823 213-669l267 155 266-155-266-154ZM120-310v-340q0-16 7.88-29.79Q135.75-693.57 150-702l300-173q8-5 14.95-6.5 6.95-1.5 15-1.5t15.55 1.5Q503-880 510-875l300 173q14.25 8.43 22.13 22.21Q840-666 840-650v210h-60v-180L481-445 180-619v309l300 173v69L150-258q-14.25-8.43-22.12-22.21Q120-294 120-310ZM729.5-60q8.5 0 14.5-5.5t6-14.5q0-9-6-14.5t-14-5.5q-9 0-14.5 5.5T710-80q0 9 5.5 14.5t14 5.5ZM710-140h40v-180h-40v180ZM596-55.4q-56-55.4-56-134T596-324q56-56 134-56t134 55.87q56 55.86 56 135.13 0 78.43-56 133.72Q808 0 730 0T596-55.4ZM480-478Z"
+        fill="url(#tvPattern)"/>
+
+  <!-- exact same circle subpath, recolored poppy red -->
+  <path d="M729.5-60q8.5 0 14.5-5.5t6-14.5q0-9-6-14.5t-14-5.5q-9 0-14.5 5.5T710-80q0 9 5.5 14.5t14 5.5ZM710-140h40v-180h-40v180ZM596-55.4q-56-55.4-56-134T596-324q56-56 134-56t134 55.87q56 55.86 56 135.13 0 78.43-56 133.72Q808 0 730 0T596-55.4Z"
+        fill="url(#alertRed)"/>
+
+  <!-- liquid-glass illumination, clipped so the silhouette cannot change -->
+  <g clip-path="url(#iconClip)" pointer-events="none">
+    <rect x="90" y="-900" width="780" height="930" fill="url(#glassSheen)"/>
+    <rect x="110" y="-900" width="120" height="930"
+          fill="url(#specularBand)" opacity=".48"
+          transform="rotate(-16 480 -430)" filter="url(#glassSoft)"/>
+    <rect x="120" y="-880" width="720" height="18"
+          fill="#ffffff" opacity=".20" filter="url(#glassSoft)"/>
+  </g>
+</svg>
